@@ -83,22 +83,6 @@ public class MainActivity extends AppCompatActivity {
         editTextName = (EditText) findViewById(R.id.editTextName);
         listViewArtists = (ListView) findViewById(R.id.listViewArtists);
 
-
-        //RECLYCLERVIEW  https://developer.android.com/guide/topics/ui/layout/recyclerview
-        recyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
-        // use this setting to improve performance if you know that changes
-        // in content do not change the layout size of the RecyclerView
-        recyclerView.setHasFixedSize(true);
-
-        // use a linear layout manager
-        layoutManager = new LinearLayoutManager(this);
-        recyclerView.setLayoutManager(layoutManager);
-
-        // specify an adapter (see also next example)
-        mAdapter = new MyAdapter(artists);
-        recyclerView.setAdapter(mAdapter);
-
-
     /*
         // HINZUFÜGEN
         buttonAddArtist.setOnClickListener(new View.OnClickListener() {

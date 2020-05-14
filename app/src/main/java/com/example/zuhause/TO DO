@@ -10,3 +10,12 @@
 
 - jump to edittext after adding
 - abgehakte items speichern
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/main_line_view"
+        android:layout_below="@+id/listViewArtists"
+        />
