@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "366744258181",
+    "firebase_url": "https://zuhause-81203.firebaseio.com",
+    "project_id": "zuhause-81203",
+    "storage_bucket": "zuhause-81203.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366744258181:android:0d7e64ac496e1664ca8bec",
+        "android_client_info": {
+          "package_name": "com.example.zuhause"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366744258181-m4dokj5pc2m9cbp6a7823d9fjjmodmab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT7cPt4qH8mBHBeZey9DfZF74SFKdO-18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366744258181-m4dokj5pc2m9cbp6a7823d9fjjmodmab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

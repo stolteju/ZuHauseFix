@@ -1,0 +1,2 @@
+rootProject.name='ZuHause'
+include ':app'
